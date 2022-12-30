@@ -8,7 +8,7 @@ const MensRanking = require("../models/mens");
 
 
 
-router.post("/mens", async (req, res) => {
+router.post("/pmens", async (req, res) => {
     try {
         const addingPlayers = new MensRanking(req.body)
         const insertMens = await addingPlayers.save();
