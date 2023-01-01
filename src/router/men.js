@@ -30,7 +30,6 @@ router.get("/mens", async (req, res) => {
 })
 
 // getting a single player
-
 router.get("/mens/:id", async (req, res) => {
     try {
         const _id = req.params.id;
